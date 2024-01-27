@@ -10,33 +10,28 @@
 			"palette": [
 				{
                     "name": "Black",
-					"slug": "black",
+					"slug": "maw-black",
 					"color": "#000000"
 				},
 				{
-					"slug": "white",
+					"slug": "maw-white",
 					"color": "#FFFFFF",
 					"name": "White"
 				},
                 {
 					"slug": "dark-grey",
-					"color": "#121212",
+					"color": "#323232",
 					"name": "Dark grey"
 				},
 				{
-					"slug": "medium-grey",
-					"color": "#383838",
-					"name": "Medium grey"
+					"slug": "maw-green",
+					"color": "#5f7261",
+					"name": "Primary Green"
 				},
 				{
-					"slug": "cyan",
-					"color": "#00838f",
-					"name": "Cyan"
-				},
-				{
-					"slug": "light-cyan",
-					"color": "#4fb3bf",
-					"name": "Light cyan" 
+					"slug": "light-green",
+					"color": "#8a9d83",
+					"name": "Light Green" 
 				}
 			]
 		

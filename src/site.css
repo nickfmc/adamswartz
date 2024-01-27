@@ -3624,7 +3624,7 @@ html {
 
 body {
   color: #000;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   -webkit-overflow-scrolling: touch;
 }
@@ -3672,9 +3672,9 @@ blockquote::before {
    HEADINGS
    ========================================================================== */
 h1, .h1-style, h2, .h2-style, h3, .h3-style, h4, .h4-style, h5, .h5-style, h6, .h6-style {
-  color: #ACACAC;
-  font-family: "Times New Roman", serif;
-  font-weight: 400;
+  color: #323232;
+  font-family: "Abril Fatface", serif;
+  font-weight: 600;
   line-height: 1.1;
   margin: 0 0 1rem 0;
 }
@@ -3749,7 +3749,7 @@ input::placeholder, textarea::placeholder {
    A TAG (links) STYLES
    ========================================================================== */
 a {
-  color: #529564;
+  color: #5f7261;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all 250ms ease;
@@ -3915,7 +3915,7 @@ p {
 }
 
 .is-style-secondaryfont {
-  font-family: "Times New Roman", serif;
+  font-family: "Abril Fatface", serif;
 }
 
 .wp-block-table {
@@ -4134,11 +4134,80 @@ p {
    FOOTER
    ========================================================================== */
 .c-page-footer {
-  background-color: #EAEAEA;
+  background-color: #000;
+  color: #fff;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-top: 10px solid #323232;
+}
+
+.c-footer-logo {
+  color: #fff;
+  font-size: 40px;
+}
+.c-footer-logo a {
+  color: #fff;
+  font-family: "Abril Fatface", serif;
+}
+
+.c-footer-socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.c-footer-socials a {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.c-footer-socials a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.c-page-footer-lower {
+  font-weight: 300;
+  border-top: 1px solid #333;
+  margin-top: 60px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+.c-page-footer-lower p {
+  opacity: 0.5;
+}
+
+.c-footer-contact {
+  margin-top: 30px;
+  color: #fff;
+}
+.c-footer-contact a {
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 20px;
 }
 
 /* ==========================================================================
@@ -4148,7 +4217,8 @@ p {
   background: #fff;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  height: 100px;
+  border-top: 4px solid #323232;
+  height: 90px;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -4158,11 +4228,14 @@ p {
    ========================================================================== */
 .c-logo-main {
   position: absolute;
-  top: 18px;
+  top: 12px;
   z-index: 1;
 }
 .c-logo-main a {
   display: block;
+  font-family: "Abril Fatface", serif;
+  font-size: clamp(1.25rem, 2vw + 0.75rem, 2.5rem);
+  color: #323232;
 }
 .c-logo-main img {
   display: block;
@@ -4172,7 +4245,7 @@ p {
 }
 @media (width >= 768px) {
   .c-logo-main img {
-    width: 250px;
+    width: 200px;
   }
 }
 
@@ -4213,11 +4286,35 @@ p {
     white-space: nowrap;
   }
   .c-main-menu > li > a {
-    color: #555555;
+    color: #323232;
+    text-transform: uppercase;
     display: block;
-    font-size: 1rem;
+    font-size: 20px;
+    font-weight: 300;
     margin: 0;
-    padding: 41px 1rem;
+    padding: 33px 20px;
+    position: relative;
+  }
+  .c-main-menu > li > a::after {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 0;
+    display: block;
+    background-color: #fff;
+    content: "";
+    height: 8px;
+    -webkit-transform: translateY(-50%) scaleY(0);
+            transform: translateY(-50%) scaleY(0);
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    opacity: 1;
   }
   .c-main-menu > li > a:first-of-type > a {
     padding-left: 0;
@@ -4227,6 +4324,10 @@ p {
   }
   .c-main-menu > li > a:hover {
     color: #222222;
+  }
+  .c-main-menu > li > a:hover::after {
+    -webkit-transform: translateY(-50%) scaleY(1);
+            transform: translateY(-50%) scaleY(1);
   }
   .c-main-menu > .current-menu-item > a,
 .c-main-menu > .current-page-ancestor > a,
@@ -4301,7 +4402,7 @@ p {
   position: absolute;
   right: 0;
   font-size: 40px;
-  top: 10px;
+  top: 17px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4310,13 +4411,12 @@ p {
   justify-content: flex-end;
 }
 .c-modal-nav-button-wrap a {
-  color: #529564;
+  color: #5f7261;
 }
 
 @media (width >= 325px) {
   .c-modal-nav-button-wrap {
     font-size: 40px;
-    top: 10px;
   }
 }
 @media (width >= 992px) {
@@ -4807,7 +4907,7 @@ body.hc-nav-open {
 
 .hc-offcanvas-nav .nav-content > .nav-close a {
   font-size: 18px;
-  color: #529564;
+  color: #5f7261;
   background: rgba(0, 0, 0, 0);
   z-index: 1;
   text-decoration: none;

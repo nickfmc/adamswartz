@@ -11,6 +11,9 @@
   <?php // get_template_part( 'template-part/favicon-head' ); ?>
 
   <?php // other html head stuff (before WP/theme scripts are loaded) ------- ?>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
 
   <?php wp_head(); // wordpress head functions -- DONOTREMOVE ?>
 
@@ -27,7 +30,7 @@
       <?php get_template_part( 'template-part/navigation/nav-tertiary' ); ?>
       <div class="c-modal-nav-button-wrap">
         <a class="toggle hc-nav-trigger mobile-nav" href="#" role="button" aria-label="Open Menu" aria-controls="hc-nav-1" aria-expanded="false">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512"><path fill="currentColor" d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><rect width="18" height="1.5" x="3" y="7.001" fill="currentColor" rx=".75"/><rect width="15" height="1.5" x="3" y="11.251" fill="currentColor" rx=".75"/><rect width="18" height="1.5" x="3" y="15.499" fill="currentColor" rx=".75"/></svg>
         </a>
       </div>
     </div>

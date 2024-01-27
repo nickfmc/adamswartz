@@ -3163,7 +3163,7 @@ html {
 
 body {
   color: #000;
-  font-family: "Arial", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   -webkit-overflow-scrolling: touch;
 }
@@ -3211,9 +3211,9 @@ blockquote::before {
    HEADINGS
    ========================================================================== */
 h1, .h1-style, h2, .h2-style, h3, .h3-style, h4, .h4-style, h5, .h5-style, h6, .h6-style {
-  color: #ACACAC;
-  font-family: "Times New Roman", serif;
-  font-weight: 400;
+  color: #323232;
+  font-family: "Abril Fatface", serif;
+  font-weight: 600;
   line-height: 1.1;
   margin: 0 0 1rem 0;
 }
@@ -3288,7 +3288,7 @@ input::placeholder, textarea::placeholder {
    A TAG (links) STYLES
    ========================================================================== */
 a {
-  color: #529564;
+  color: #5f7261;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all 250ms ease;
@@ -6246,7 +6246,7 @@ p {
 }
 
 .is-style-secondaryfont {
-  font-family: "Times New Roman", serif;
+  font-family: "Abril Fatface", serif;
 }
 
 .wp-block, .ugb-inner-block--center {

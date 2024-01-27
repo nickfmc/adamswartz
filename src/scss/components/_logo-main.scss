@@ -4,10 +4,14 @@
 
 .c-logo-main {
   position: absolute;
-  top: 18px;
+  top: 12px;
   z-index: z(default);
   & a {
     display: block;
+    font-family: $font-secondary;
+    font-size: clamped(20px, 40px);
+    color: $color-gray-dark;
+ 
   }
   & img {
     display: block;
@@ -15,7 +19,7 @@
     height: auto;
     max-height: $page-header-height;
     @media (width >= $bp-medium) {
-      width: 250px;
+      width: 200px;
      } 
   }
 }

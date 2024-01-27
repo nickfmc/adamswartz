@@ -3,9 +3,66 @@
    ========================================================================== */
 
 .c-page-footer {
-  background-color: $color-gray-light;
+  background-color: #000;
+  color: #fff;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-top: 10px solid $color-gray-dark;
+}
+
+.c-footer-logo {
+  color: #fff;
+  font-size: 40px;
+  a {
+    color: #fff;
+    font-family: $font-secondary;
+  }
+}
+
+.c-footer-socials {
+display: flex;
+margin-bottom: 20px;
+margin-top: 20px;
+justify-content: center;
+align-items: center;
+gap: 20px;
+  a {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
+
+.c-page-footer-lower {
+  font-weight: 300;
+  border-top: 1px solid #333;
+  margin-top: 60px;
+  padding-top: 20px;
+  font-size: 14px;
+  p {
+    opacity: 0.5;
+  }
+}
+
+.c-footer-contact {
+  margin-top: 30px;
+  color: #fff;
+  a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+  }
 }

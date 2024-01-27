@@ -23,13 +23,13 @@
      } 
    }
  
-  .c-modal-nav-button-wrap {
+  .c-modal-nav-button-wrap { 
    z-index: 100;
    margin: 0;
    position: absolute;
    right: 0;
    font-size: 40px;
-   top: 10px;
+   top: 17px;
    display: -webkit-box; 
    display: -ms-flexbox;
    display: flex;
@@ -44,7 +44,6 @@
  @media (width >= 325px) {
    .c-modal-nav-button-wrap {
      font-size: 40px;
-     top: 10px;
    }
  }
  @media (width >= 992px) {
