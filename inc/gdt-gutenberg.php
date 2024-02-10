@@ -55,20 +55,37 @@ function custom_block_category( $categories ) {
 add_filter( 'block_categories_all', 'custom_block_category', 10, 2 );
 
 
-// Register Block Scripts
-function maw_register_guten_script() {
+// Register Block Scripts  
+add_action( 'init', 'maw_register_launch_script' );
+function maw_register_launch_script() {
   wp_register_script( 'splide', get_template_directory_uri() .'/src/js/splide.min.js', [ 'acf' ]);
   wp_register_script( 'slider', get_template_directory_uri() .'/template-part/block/slider/slider.js', [ 'splide' , 'acf' ]);
+  wp_register_script( 'swiper', get_template_directory_uri() .'/dist/swiper-bundle.min.js', [ 'acf' ]);
+  wp_register_script( 'projects-slider', get_template_directory_uri() .'/template-part/block/swiper-projects/project-slider.js', [ 'swiper' , 'acf' ]);
+
   }
-  add_action( 'init', 'maw_register_guten_script' );
+ 
 
 // Add ACF json blocks.
 
 function register_acf_blocks() { 
-  register_block_type(  get_stylesheet_directory() . '/template-part/block/button/block.json' );
+
+  register_block_type(  get_stylesheet_directory() . '/template-part/block/swiper-projects/block.json' );
+
 }
 
 add_action( 'init', 'register_acf_blocks', 5 );
+
+
+
+
+
+
+
+
+
+
+
 
 
 

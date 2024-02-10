@@ -40,13 +40,13 @@ jQuery( document ).ready(function( $ ) {
 
    $('#mobile-nav').hcOffcanvasNav({
     disableAt: 1024,
-    width: 280,
+    width: 480,
     customToggle: $('.toggle'),
      pushContent: '.menu-slide',
     levelTitles: true,
     position: 'right',
     levelOpen: 'expand',
-    navTitle: $('<div class="c-mobile-menu-header"><a href="/"><img src="'+ templateUrl + '/img/logo.svg"></a></div>'),
+    navTitle: $('<div class="c-mobile-menu-header"><a href="/">Adam Swartz</a></div>'),
     levelTitleAsBack: true
   });
 

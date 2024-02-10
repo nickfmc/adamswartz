@@ -4,12 +4,20 @@
 
 .c-logo-main {
   position: absolute;
-  top: 12px;
+  top: 18px;
+  @media(width >= $bp-medium) {
+    top: 12px;
+  
+  } 
   z-index: z(default);
   & a {
     display: block;
     font-family: $font-secondary;
-    font-size: clamped(20px, 40px);
+    font-size: 30px;
+    @media(width >= $bp-medium) {
+      font-size: 40px;
+    
+    } 
     color: $color-gray-dark;
  
   }

@@ -34,7 +34,7 @@
 @import "./scss/utilities/_spacing-utils.scss";
 @import "./scss/utilities/_height-utils.scss";
 @import "./scss/utilities/_width-utils.scss";
-@import "./scss/utilities/_misc-utils.scss";
+@import "./scss/utilities/_misc-utils.scss"; 
 
 
 .is-style-secondaryfont {
@@ -43,9 +43,9 @@
 
 // /* Width of "regular" blocks */
 .wp-block, .ugb-inner-block--center {
-	max-width: $wrapper-width-base !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
+	max-width: $wrapper-width-base ;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 // /* Width of "wide" blocks */
 .wp-block[data-align*="wide"], .is-style-alignwide, .wp-block-separator.is-style-wide, .ugb-inner-block--wide,
@@ -128,11 +128,5 @@ body .wp-block-column {
 	}
    }
   
-// // /* Width of "regular" blocks -- WHY DO I NEED THIS MESS TOOLSET!?!?! */
-.wp-block, 
- .wp-block[data-type^="toolset"]:not([data-align^="full"]), 
- div:not([class]) > .block-editor-block-list__layout > .wp-block:not([data-align^="full"]), 
- .tb-container > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:not([data-align^="full"]) {
-	max-width: $wrapper-width-base !important;
-	z-index: 10;
-}
+
+

@@ -2,16 +2,16 @@
    VARIABLES
    ========================================================================== */
    
-   $color-close: #ddd;
-   $color-dividing-line: #efefef; 
-   $color-item-bg: #fff;
+   $color-close: #fff;
+   $color-dividing-line: #323232; 
+   $color-item-bg: $color-black;
    $color-open-btn: $color-secondary;
    $color-close-btn: $color-secondary;
    $color-item-bg-hover: #fff; 
-   $color-menu-bg: #fff;
+   $color-menu-bg: $color-black;
    $header-height: 100px;
-   $header-bg-color: #fff;
-   $color-menu-item:  $color-gray-dark;
+   $header-bg-color: $color-black;
+   $color-menu-item:  #fff;
    $color-menu-sub-item:  $color-gray-dark;
    $nav-item-alignment: left;
 
@@ -62,6 +62,8 @@
 a {
  position: relative;
  top: 8px;
+ font-size: 29px;
+ color: #fff;
 }
   img {
    width: 150px;
@@ -383,6 +385,7 @@ a {
  }
  .hc-offcanvas-nav:not(.touch-device) li:not(.nav-item-custom) a:not([disabled]):hover {
    background:  $color-item-bg-hover;
+   color: #000;
  }
  .hc-offcanvas-nav .nav-custom-content {
    padding: 14px 17px;
@@ -722,3 +725,38 @@ a {
  .hc-offcanvas-nav .sub-menu li:last-of-type a {
    padding-bottom: 20px !important;
  }
+
+
+ ul.c-nav-socials {
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+  align-items: center;
+  gap: 20px;
+    li {
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      color: #fff;
+      font-size: 20px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      padding: 0 !important;
+      &:hover {
+        background-color: #fff;
+        color: #000;
+      }
+
+      .nav-item-wrapper a {
+        border-bottom: 0 !important;
+        display: flex;
+        align-items: center;
+      justify-content: center;
+      }
+      
+      
+    }
+  }

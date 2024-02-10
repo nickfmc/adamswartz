@@ -41,6 +41,23 @@
         "wideSize": "1180px"
 	},
 	"typography": {
+		"fontFamilies": [
+			{
+				"fontFamily": "Abril Fatface, sans-serif",
+				"name": "AbrilFatface",
+				"slug": "secondary",
+				"fontFace": [
+					{
+						"fontDisplay": "block",
+						"fontFamily": "Abril Fatface",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"fontWeight": "600",
+						"src": [ "file:./fonts/AbrilFatface-Regular.ttf" ]
+					}
+				]
+			}
+		],
 		"fontSizes": [
 			{
 				"slug": "small",

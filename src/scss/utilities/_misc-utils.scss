@@ -25,6 +25,15 @@
   text-align: center;
 }
 
+.u-jumbo {
+  font-size: clamped(60px, 90px);
+}
+
+.u-fed {
+  font-size: clamped(60px, 150px);
+  display: block;
+
+}
 
 // ++ media or embed aspect ratio +++++++++++++++++++++++++++++++++
 .u-aspect-16x9 {
