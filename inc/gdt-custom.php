@@ -14,4 +14,8 @@
 global $content_width;
 $content_width = 920;
 
+function custom_woocommerce_gallery_thumbnail_size($size) {
+  return 'thumbnail'; // Change this to your desired size
+}
+add_filter('woocommerce_gallery_thumbnail_size', 'custom_woocommerce_gallery_thumbnail_size');
 ?>
