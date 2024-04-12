@@ -16,7 +16,7 @@
     article.product {
         padding-top: 100px;
         padding-bottom: 80px;
-        width: 900px;
+        width: 1100px;
         max-width: 100%;
         margin: 0 auto;
         .product_meta {
@@ -140,3 +140,41 @@
         };
     }
 }
+
+.wc-block-grid__products {
+    li {
+        &::before { 
+           display: none !important;
+        }
+    }
+}
+
+.wp-block-woocommerce-empty-cart-block .is-style-dots {
+    display: none;
+}
+
+.variations_form.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.woocommerce-variation-add-to-cart {
+    display: flex;
+    button.single_add_to_cart_button {
+       margin-top: 0 !important;
+    }
+   }
+
+   .single-product.woocommerce div.product form.cart .variations {
+    display: flex ;
+    margin-bottom: 0;
+    td {
+        padding-left: 10px;
+    }
+   }
+
+   .editor-content ul.wc-block-components-product-details li::before {
+    display: none;
+   }
