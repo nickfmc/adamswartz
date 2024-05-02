@@ -3674,7 +3674,7 @@ blockquote::before {
    ========================================================================== */
 h1, .h1-style, h2, .h2-style, h3, .h3-style, h4, .h4-style, h5, .h5-style, h6, .h6-style {
   color: #323232;
-  font-family: "Abril Fatface", serif;
+  font-family: "Fraunces", serif;
   font-weight: 600;
   line-height: 1.1;
   margin: 0 0 1rem 0;
@@ -3685,7 +3685,7 @@ h1 a, .h1-style a, h2 a, .h2-style a, h3 a, .h3-style a, h4 a, .h4-style a, h5 a
 }
 
 h1, .h1-style {
-  font-size: clamp(2.81rem, 1.5vw + 2.44rem, 3.75rem);
+  font-size: clamp(2.5rem, 1vw + 2.25rem, 3.13rem);
 }
 
 h2, .h2-style {
@@ -3916,7 +3916,7 @@ p {
 }
 
 .is-style-secondaryfont {
-  font-family: "Abril Fatface", serif;
+  font-family: "Fraunces", serif;
 }
 
 .wp-block-table {
@@ -4148,10 +4148,16 @@ p {
 .c-footer-logo {
   color: #fff;
   font-size: 40px;
+  margin-bottom: 40px;
 }
 .c-footer-logo a {
   color: #fff;
-  font-family: "Abril Fatface", serif;
+  font-family: "Fraunces", serif;
+  line-height: 1;
+}
+.c-footer-logo a span {
+  display: block;
+  font-size: 20px;
 }
 
 .c-footer-socials {
@@ -4288,9 +4294,9 @@ p {
 }
 @media (width >= 768px) {
   .single-product .woocommerce #content div.product div.summary,
-.single-product .woocommerce div.product div.summary,
-.single-product .woocommerce-page #content div.product div.summary,
-.single-product .woocommerce-page div.product div.summary {
+  .single-product .woocommerce div.product div.summary,
+  .single-product .woocommerce-page #content div.product div.summary,
+  .single-product .woocommerce-page div.product div.summary {
     width: 50%;
   }
 }
@@ -4439,6 +4445,7 @@ p {
 .c-logo-main {
   position: absolute;
   top: 18px;
+  width: 200px;
   z-index: 1;
 }
 @media (width >= 768px) {
@@ -4448,7 +4455,7 @@ p {
 }
 .c-logo-main a {
   display: block;
-  font-family: "Abril Fatface", serif;
+  font-family: "Fraunces", serif;
   font-size: 30px;
   color: #323232;
 }
@@ -4550,17 +4557,17 @@ p {
             transform: translateY(-50%) scaleY(1);
   }
   .c-main-menu > .current-menu-item > a,
-.c-main-menu > .current-page-ancestor > a,
-.c-main-menu > .current_page_item > a,
-.c-main-menu > .current_page_parent > a,
-.c-main-menu > .current_page_ancestor > a {
+  .c-main-menu > .current-page-ancestor > a,
+  .c-main-menu > .current_page_item > a,
+  .c-main-menu > .current_page_parent > a,
+  .c-main-menu > .current_page_ancestor > a {
     color: #222222;
   }
   .c-main-menu > .current-menu-item > a::before,
-.c-main-menu > .current-page-ancestor > a::before,
-.c-main-menu > .current_page_item > a::before,
-.c-main-menu > .current_page_parent > a::before,
-.c-main-menu > .current_page_ancestor > a::before {
+  .c-main-menu > .current-page-ancestor > a::before,
+  .c-main-menu > .current_page_item > a::before,
+  .c-main-menu > .current_page_parent > a::before,
+  .c-main-menu > .current_page_ancestor > a::before {
     content: "";
     position: absolute;
     width: 80%;
@@ -4575,7 +4582,7 @@ p {
 }
 @media (width >= 992px) {
   .c-main-menu li:hover ul,
-.c-main-menu li.focus ul {
+  .c-main-menu li.focus ul {
     top: 100%;
     opacity: 1;
     visibility: visible;
@@ -4602,7 +4609,7 @@ p {
     overflow: hidden;
   }
   .c-main-menu li:hover ul li,
-.c-main-menu li.focus ul li {
+  .c-main-menu li.focus ul li {
     max-height: 140px;
   }
   .c-main-menu ul li a {
@@ -4615,11 +4622,11 @@ p {
     transition: all 250ms ease;
   }
   .c-main-menu ul li a:hover,
-.c-main-menu ul .current-menu-item > a,
-.c-main-menu ul .current-menu-parent > a,
-.c-main-menu ul .current_page_item > a,
-.c-main-menu ul .current_page_parent > a,
-.c-main-menu ul .current_page_ancestor > a {
+  .c-main-menu ul .current-menu-item > a,
+  .c-main-menu ul .current-menu-parent > a,
+  .c-main-menu ul .current_page_item > a,
+  .c-main-menu ul .current_page_parent > a,
+  .c-main-menu ul .current_page_ancestor > a {
     color: #000000;
   }
 }
@@ -4663,7 +4670,7 @@ p {
 .nav-title {
   height: 100px;
   margin-bottom: 0;
-  background-color: #000;
+  background-color: #fff;
 }
 
 .c-mobile-menu-header a {
@@ -5118,7 +5125,7 @@ body.hc-nav-open {
   position: absolute;
   width: 2px;
   height: 30px;
-  background-color: #fff;
+  background-color: #000;
   margin-top: -15px;
 }
 
@@ -5146,7 +5153,7 @@ body.hc-nav-open {
 
 .hc-offcanvas-nav .nav-content > .nav-close a {
   font-size: 18px;
-  color: #5f7261;
+  color: #000;
   background: rgba(0, 0, 0, 0);
   z-index: 1;
   text-decoration: none;
@@ -6053,7 +6060,7 @@ ul.c-nav-socials li .nav-item-wrapper a {
   color: rgb(255, 255, 255);
   text-align: left;
   font-size: 32px;
-  font-family: "Abril Fatface", serif;
+  font-family: "Fraunces", serif;
   line-height: 1.5;
   font-weight: bold;
 }
@@ -6075,6 +6082,55 @@ ul.c-nav-socials li .nav-item-wrapper a {
   color: #000;
 }
 
+.c-mouse-cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+.c-mouse-cover span {
+  color: #fff;
+  font-style: italic;
+  font-family: "Fraunces", serif;
+  z-index: 2;
+  font-size: 22px;
+}
+.c-mouse-cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.38);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  -webkit-box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.38);
+          box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.38);
+  z-index: 1;
+  -webkit-backdrop-filter: invert(1);
+          backdrop-filter: invert(1);
+}
+
+.page-id-461 main {
+  z-index: -1;
+  position: relative;
+}
+
 /* ==========================================================================
    PRINT STYLES
    ========================================================================== */
@@ -6088,8 +6144,8 @@ ul.c-nav-socials li .nav-item-wrapper a {
    * 1. Black prints faster: http://www.sanbeiji.com/archives/953
    */
   *,
-*::before,
-*::after {
+  *::before,
+  *::after {
     background: transparent !important;
     color: #000 !important;
     /* [1] */
@@ -6098,7 +6154,7 @@ ul.c-nav-socials li .nav-item-wrapper a {
     text-shadow: none !important;
   }
   a,
-a:visited {
+  a:visited {
     text-decoration: underline;
   }
   a[href]::after {
@@ -6112,11 +6168,11 @@ a:visited {
    * pseudo protocol.
    */
   a[href^="#"]::after,
-a[href^="javascript:"]::after {
+  a[href^="javascript:"]::after {
     content: "";
   }
   pre,
-blockquote {
+  blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
@@ -6127,20 +6183,20 @@ blockquote {
     display: table-header-group;
   }
   tr,
-img {
+  img {
     page-break-inside: avoid;
   }
   img {
     max-width: 100% !important;
   }
   p,
-h2,
-h3 {
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
   }
   h2,
-h3 {
+  h3 {
     page-break-after: avoid;
   }
 }

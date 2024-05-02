@@ -46,7 +46,7 @@ jQuery( document ).ready(function( $ ) {
     levelTitles: true,
     position: 'right',
     levelOpen: 'expand',
-    navTitle: $('<div class="c-mobile-menu-header"><a href="/">Adam Swartz</a></div>'),
+    navTitle: $('<div class="c-mobile-menu-header"><a href="/"><img src="'+ templateUrl + '/img/umbrla.svg"></a></div>'),
     levelTitleAsBack: true
   });
 

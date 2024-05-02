@@ -1,6 +1,6 @@
-<div class="c-logo-main">
-  <a href="/" rel="nofollow">
-  <svg width="100%" height="100%" viewBox="0 0 313 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 313 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g id="Layer-1" serif:id="Layer 1">
         <g transform="matrix(1,0,0,1,64.5348,23.8901)">
             <path d="M0,38.863C-0.745,42.631 -0.378,44.113 0.583,44.102C1.807,44.089 3.879,41.705 5.419,38.628L6.648,39.052C4.354,45.023 -0.554,51.985 -7.198,52.059C-11.569,52.107 -12.127,49.052 -11.315,43.447C-14.251,46.802 -19.271,51.405 -25.654,51.476C-32.386,51.551 -39.785,46.649 -37.463,35.257L-33.573,15.452C-29.013,-6.983 -33.337,-10.52 -38.67,-10.461C-48.024,-10.357 -50.869,1.217 -56.639,1.28C-59.349,1.311 -61.209,-0.855 -60.629,-3.747C-58.971,-11.897 -43.944,-13.025 -38.349,-13.087C-24.186,-13.244 -18.521,-7.099 -21.503,7.886L-26.972,35.14C-28.715,43.465 -24.576,46.217 -20.816,46.176C-16.97,46.133 -13.244,43.032 -10.655,39.943L-7.179,22.242C-4.773,10.498 -5.519,6.309 -8.579,6.343L-7.997,3.714L7.041,3.547L0,38.863Z" style="fill-rule:nonzero;"/>
@@ -22,6 +22,3 @@
         </g>
     </g>
 </svg>
-
-  </a>
-</div> <!-- /c-main-logo -->

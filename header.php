@@ -13,11 +13,18 @@
   <?php // other html head stuff (before WP/theme scripts are loaded) ------- ?>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
 
   <?php wp_head(); // wordpress head functions -- DONOTREMOVE ?>
 
   <?php // START Google Analytics here ?>
+
+  <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16531029453"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16531029453'); </script>
+
+
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7L7QFT8X5"></script>
 <script>
@@ -27,9 +34,43 @@
   gtag('config', 'G-W7L7QFT8X5');
 </script>
   <?php // END Analytics ?>
-</head>
+
+
+  <?php
+  if (is_page(296)) {
+  ?>
+    <!-- Event snippet for Checkout conversion page -->
+    <script> gtag('event', 'conversion', { 'send_to': 'AW-16531029453/yh_8CPKQ66kZEM37zco9', 'value': 36.0, 'currency': 'USD' }); </script>
+  <?php
+  }
+  ?> 
+
+
+  <?php
+  if (is_page(292)) {
+    // <!-- Event snippet for Cart conversion page -->
+    ?>
+   <script> gtag('event', 'conversion', { 'send_to': 'AW-16531029453/Ex8_CPWj5KkZEM37zco9', 'value': 36.0, 'currency': 'USD' }); </script>
+  <?php }
+  ?>
+
+
+<?php
+if (is_wc_endpoint_url('order-received')) {
+?>
+    <!-- thank-you endpoint -->
+       <script> gtag('event', 'conversion', { 'send_to': 'AW-16531029453/6S4gCM36j6kZEM37zco9', 'value': 50.0, 'currency': 'USD', 'transaction_id': '' }); </script>
+<?php
+}
+?>
+
+
+  </head>
 
 <body <?php body_class(pretty_body_class()); ?> itemscope itemtype="https://schema.org/WebPage">
+
+
+
 
   <header id="c-page-header" class="o-section c-page-header" role="banner" itemscope itemtype="https://schema.org/WPHeader">
     <div class="o-wrapper-wide  u-relative">

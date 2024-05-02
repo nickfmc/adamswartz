@@ -1,9 +1,9 @@
   <footer class="o-section c-page-footer" role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
     <div class="o-wrapper-wide c-page-footer-top">
       <div class="c-footer-logo">
-        <a href="/" rel="nofollow">
-       
-          <span>Adam</span> Swartz
+        <a href="/" rel="nofollow"> 
+          Umbrla Supply
+          <span>by Adam Swartz </span>
         </a>
       </div>
       <div class="c-footer-socials">
@@ -13,13 +13,13 @@
         <a target="_blank" rel="noopener" aria-label="Instagram" href="https://www.instagram.com/umbrlachuck/">
           <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8"/><path d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m17.5 6.51l.01-.011"/></g></svg>
         </a>
-        <a target="_blank" rel="noopener" aria-label="Etsy" href="https://www.etsy.com/shop/UmbrlaSupply?ref=shop-header-name&listing_id=1208871074&from_page=listing">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" focusable="false"><path fill="currentColor" d="M23.969 5c-5.258.604-14.198.3-17.826.184v1.252c2.4.454 2.946.37 2.996 1.767c.173 3.823.088 12.263 0 15.815c-.018 1.337-.764 1.291-2.996 1.73V27c7.298-.233 12.306-.211 18.095 0c.074-.925.516-4.621.696-6H23.7c-1.392 3.293-1.66 4.416-4.642 4.416h-4.383c-1.473 0-2.174-.603-2.174-1.879v-6.824c3.266 0 4.32.098 4.32.098C18.317 16.834 18.55 18.03 19 20h1c-.106-4.833-.216-3.023 0-8h-1c-.648 2.787-.69 3.117-2.152 3.164c0 0-1.498.147-4.346.123v-8.04c0-.308.024-.48.527-.48h6.729c1.708 0 2.12 2.187 2.637 4.233H23.6c.044-.887.22-4.368.369-6"/></svg>
+        <a target="_blank" rel="noopener" aria-label="Pintrest" href="https://www.pinterest.com/umbrlaclothier/">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20"><path fill="currentColor" d="M10.2 2C5.8 2 3.5 4.8 3.5 7.9c0 1.5.8 3 2.1 3.8c.4.2.3 0 .6-1.2c0-.1 0-.2-.1-.3C4.3 8 5.8 3.7 10 3.7c6.1 0 4.9 8.4 1.1 8.4c-.8.1-1.5-.5-1.5-1.3v-.4c.4-1.1.7-2.1.8-3.2c0-2.1-3.1-1.8-3.1 1c0 .5.1 1 .3 1.4c0 0-1 4.1-1.2 4.8c-.2 1.2-.1 2.4.1 3.5c-.1.1 0 .1 0 .1h.1c.7-1 1.3-2 1.7-3.1c.1-.5.6-2.3.6-2.3c.5.7 1.4 1.1 2.3 1.1c3.1 0 5.3-2.7 5.3-6S13.7 2 10.2 2"/></svg>
         </a>
       </div>
-      <div class="c-footer-contact">
+      <div class="c-footer-contact"> 
       <a href="tel:3034378692">303.437.8692</a>
-<a href="mailto:adamswartz18@gmail.com">adamswartz18@gmail.com</a>
+<a href="mailto:adam@umbrlasupply.com">adam@umbrlasupply.com</a>
       </div>
           <?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
             <?php dynamic_sidebar( 'footer-1' ); ?>

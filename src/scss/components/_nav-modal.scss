@@ -6,11 +6,11 @@
    $color-dividing-line: #323232; 
    $color-item-bg: $color-black;
    $color-open-btn: $color-secondary;
-   $color-close-btn: $color-secondary;
+   $color-close-btn: #000; 
    $color-item-bg-hover: #fff; 
    $color-menu-bg: $color-black;
    $header-height: 100px;
-   $header-bg-color: $color-black;
+   $header-bg-color: #fff;
    $color-menu-item:  #fff;
    $color-menu-sub-item:  $color-gray-dark;
    $nav-item-alignment: left;
@@ -448,7 +448,7 @@ a {
    position: absolute;
    width: 2px;
    height: 30px;
-   background-color:  $color-close;
+   background-color: #000;
    margin-top: -15px;
  }
  .hc-offcanvas-nav .nav-close-button span::before {

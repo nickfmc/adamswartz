@@ -3212,7 +3212,7 @@ blockquote::before {
    ========================================================================== */
 h1, .h1-style, h2, .h2-style, h3, .h3-style, h4, .h4-style, h5, .h5-style, h6, .h6-style {
   color: #323232;
-  font-family: "Abril Fatface", serif;
+  font-family: "Fraunces", serif;
   font-weight: 600;
   line-height: 1.1;
   margin: 0 0 1rem 0;
@@ -3223,7 +3223,7 @@ h1 a, .h1-style a, h2 a, .h2-style a, h3 a, .h3-style a, h4 a, .h4-style a, h5 a
 }
 
 h1, .h1-style {
-  font-size: clamp(2.81rem, 1.5vw + 2.44rem, 3.75rem);
+  font-size: clamp(2.5rem, 1vw + 2.25rem, 3.13rem);
 }
 
 h2, .h2-style {
@@ -6255,7 +6255,7 @@ p {
 }
 
 .is-style-secondaryfont {
-  font-family: "Abril Fatface", serif;
+  font-family: "Fraunces", serif;
 }
 
 .wp-block, .ugb-inner-block--center {
