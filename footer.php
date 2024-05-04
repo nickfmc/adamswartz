@@ -2,7 +2,7 @@
     <div class="o-wrapper-wide c-page-footer-top">
       <div class="c-footer-logo">
         <a href="/" rel="nofollow"> 
-          Umbrla Supply
+          umbrla supply
           <span>by Adam Swartz </span>
         </a>
       </div>

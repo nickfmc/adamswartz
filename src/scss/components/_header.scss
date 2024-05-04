@@ -9,6 +9,8 @@
   height: 90px;  
   padding-left: 25px;
   padding-right: 25px;
+  z-index: 10;
+  position: relative;
   // enable styles below for usage with headroom.js
   // position: fixed;
   // top: 0;
